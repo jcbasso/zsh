@@ -1,15 +1,15 @@
 # JC.zsh
 
-JC.zsh is a Zsh configuration that seeks to look similar to Powerlevel10k but being completely custom _(though using Power10k git status)_.
+JC.zsh is a Zsh configuration that seeks to resemble to Powerlevel10k without the bulkiness of it _(though using Power10k gitstatus)_.
 
 ![JC.zsh example](docs/terminal_example.png)
 
 ## Disclaimer 
-This is a personal zsh configuration so it will have some specific PATHs that you could delete or modify, some examples are the .zshpath and the gcp.plugin.zsh
+This is a personal zsh configuration so it will have some specific PATHs that you could delete or modify, some examples are the `.zshpath` and the `gcp.plugin.zsh`.
 
 ## Getting started
 To use this you just need to: 
-1. Clone the repository to your `$HOME`
+1. Clone the repository to your `$HOME`.
 2. Modify .zshrc on `$HOME` to:
 ```bash
 # Own .zshrc
@@ -52,7 +52,7 @@ source ~/.zsh/.zshrc
     * **Normal:** ABB2BF
     * **Bright:** FFFEFE
 
-You can also find the profile for Mac Terminal on [docs/jc\_zsh.terminal](docs/jc_zsh.terminal)
+You can also find the profile for Mac Terminal on [docs/jc\_zsh.terminal](docs/jc_zsh.terminal).
 
 ## Known Issues
 * When restarting the computer the already opened terminals fail to run the `gitstatus` script. This is solved by just doing a `source ~/.zshrc` after the computer is fully booted.
