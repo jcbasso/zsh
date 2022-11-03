@@ -1,6 +1,6 @@
 # Path
-export PATH="${GOPATH}/bin:${GOROOT}/bin:$PATH"
+export PATH="/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH"
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 export PATH="/usr/local/opt/python@3.7/bin:$PATH"
-export PATH="/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH"
 export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
+export PATH="${GOPATH}/bin:${GOROOT}/bin:$PATH"
