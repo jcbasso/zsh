@@ -17,6 +17,14 @@ source ~/.zsh/.zshrc
 ```
 
 ## Preferred Configurations
+You can download the terminals profiles from: 
+* Mac Terminal: [docs/jc\_zsh.terminal](docs/jc_zsh.terminal)
+* Warp Terminal:
+```bash
+curl -s -N 'https://warp-themes.com/d/fjbIrS03HtcpP5RyQg5z' | bash
+```
+
+Here are the full configurations of them to use in any terminal:
 * **Font:** [Hack Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts)
 * **Terminal Colors:**
   * **Background:**
@@ -51,8 +59,6 @@ source ~/.zsh/.zshrc
   * **White:**
     * **Normal:** ABB2BF
     * **Bright:** FFFEFE
-
-You can also find the profile for Mac Terminal on [docs/jc\_zsh.terminal](docs/jc_zsh.terminal).
 
 ## Known Issues
 * When restarting the computer the already opened terminals fail to run the `gitstatus` script. This is solved by just doing a `source ~/.zshrc` after the computer is fully booted.
