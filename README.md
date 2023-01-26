@@ -61,4 +61,4 @@ Here are the full configurations of them to use in any terminal:
     * **Bright:** FFFEFE
 
 ## Known Issues
-* When restarting the computer the already opened terminals fail to run the `gitstatus` script. This is solved by just doing a `source ~/.zshrc` after the computer is fully booted.
+* When there is a crash in the computer and the computer is restarted, the already opened terminals fail to run the `gitstatus` script. This is solved by just doing a `source ~/.zshrc` after the computer is fully booted.
