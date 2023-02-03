@@ -4,6 +4,12 @@ alias la='lsd -a --group-dirs=first'
 alias l='lsd --group-dirs=first'
 alias lla='lsd -lha --group-dirs=first'
 alias ls='lsd --group-dirs=first'
-alias cat='bat'
 alias grep='rg'
-eval $(thefuck --alias)
+alias path="echo $PATH | sed 's/:/\n/g'"
+alias pathu="echo $PATH | sed 's/:/\n/g' | sort | uniq"
+
+if [ "$(uname -s)" = "Darwin" ]; then
+	source ~/.zsh/mac/.zshalias
+elif [ "$(uname -s)" = "Linux" ]; then
+	source ~/.zsh/linux/.zshalias
+fi
